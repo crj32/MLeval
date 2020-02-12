@@ -1,0 +1,16 @@
+Package: MLeval
+Title: Machine Learning Model Evaluation
+Version: 0.3
+Author: Christopher R John
+Maintainer: Christopher R John <chris.r.john86@gmail.com>
+Description: Straightforward and detailed evaluation of machine learning models. 'MLeval' can produce receiver operating characteristic (ROC) curves, precision-recall (PR) curves, calibration curves, and PR gain curves. 'MLeval' accepts a data frame of class probabilities and ground truth labels, or, it can automatically interpret the Caret train function results from repeated cross validation, then select the best model and analyse the results. 'MLeval' produces a range of evaluation metrics with confidence intervals.
+License: AGPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+Suggests: knitr, rmarkdown
+Imports: ggplot2
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
+NeedsCompilation: no
+Packaged: 2020-02-11 10:01:27 UTC; christopher
